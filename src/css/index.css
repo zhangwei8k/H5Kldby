@@ -1,0 +1,87 @@
+﻿@charset "utf-8";
+@font-face { font-family: LiquidCrystal; src: url(../../img/LiquidCrystal-Light.otf);}
+/*Loader*/
+#Loader{
+    background-color: #0b1430;
+    z-index: 999;
+}
+#Loader .logo{
+    position: absolute; left: 135px; top: 231px;
+    width: 424px; height: 603px;
+    background: url(../../img/loader/bg.png);
+}
+#Loader .c1{
+    position: absolute; left: 370px; top: 587px;
+    width: 98px; height: 98px;
+    background: url(../../img/loader/c1.png);
+}
+#Loader .c2{
+    position: absolute; left: 492px; top: 606px;
+    width: 62px; height: 62px;
+    background: url(../../img/loader/c2.png);
+}
+#Loader .c3{
+    position: absolute; left: 508px; top: 686px;
+    width: 32px; height: 32px;
+    background: url(../../img/loader/c3.png);
+}
+#Loader .cc1{
+    position: absolute; left: 464px; top: 612px;
+    width: 32px; height: 32px;
+    background: url(../../img/loader/cc1.png);
+}
+#Loader .cc2{
+    position: absolute; left: 518px; top: 665px;
+    width: 24px; height: 24px;
+    background: url(../../img/loader/cc2.png);
+}
+#Loader .box{
+    position: absolute; left: 176px; top: 626px;
+    width: 348px; height: 129px;
+    background: url(../../img/loader/box.png);
+}
+#Loader .word{
+    font-family: LiquidCrystal; letter-spacing:5px;
+    position: absolute; left: 225px; top: 660px;
+    width: 298px; height: 86px;
+    color: #E95B75; font-size: 65px;
+    text-shadow:0 0 5px #E95B75,
+    -0 -0 5px #E95B75;
+}
+#Loader .start{
+    position: absolute; left: 297px; top: 947px;
+    width: 103px; height: 123px;
+    background: url(../../img/loader/start.png);
+    display: none; opacity: 0;
+}
+#logo{
+    position: absolute; left: 135px; top: 231px;
+}
+
+/*Door*/
+#Door{
+    z-index: 99;
+    background-color: inherit;
+}
+
+/*Index*/
+#cav{
+    position: absolute; top: 0; left: 0;
+}
+
+
+/*Game*/
+#Game .msg{
+    position: absolute; top: 10px; left: 10px;
+    width: 100px; height: 100px;
+    background-color: green; z-index: 9;
+}
+#Game .msg.no{
+    background-color: blue;
+}
+#Game .msg.act{
+    background-color: red;
+}
+
+
+
